@@ -6,7 +6,7 @@ from typing import Dict
 import requests
 
 from models import User, create_model
-from config import BOT_TOKEN, DEFAULT_COMMAND, API_KEY
+from filmbot.config import BOT_TOKEN, DEFAULT_COMMAND, API_KEY
 
 """
     Папка main.py - является проектом по созданию телеграмм бота, который помогает пользователю выбрать фильм по отдельно созданным коммандам.
